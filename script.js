@@ -15,7 +15,7 @@ DOMContentLoaded();
 
   if (username.length < 3) {
     isValid = false;
-    masseges = console.error("your username not valid");
+    masseges.push("your username not valid");
   }
   else{
     masseges = "";
