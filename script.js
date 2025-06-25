@@ -9,3 +9,14 @@ DOMContentLoaded();
   const username = document.getElementById("username").Value.trim(" ");
   const email = document.getElementById("email").Value.trim(" ");
   const password = document.getElementById("password").Value.trim(" ");
+
+  let isValid = true;
+  let messages = [];
+
+  if (username.length < 3) {
+    isValid = false;
+    masseges = console.error("your username not valid");
+  }
+  else{
+    masseges = "";
+  }
