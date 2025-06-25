@@ -6,3 +6,6 @@ DOMContentLoaded();
     event.preventDefault();
   })
 
+  const username = document.getElementById("username").Value.trim(" ");
+  const email = document.getElementById("email").Value.trim(" ");
+  const password = document.getElementById("password").Value.trim(" ");
